@@ -1,4 +1,4 @@
-# Mejor-uso-de-eventos
-Forma de usar eventos de una manera muy interesante.
+# Mejorar usos de eventos
+Forma de usar eventos de una mejor manera.
 
-https://jesusbriones2.github.io/Mejor-uso-de-eventos/
+* link: https://jesusbriones2.github.io/Mejorar_uso_de_eventos/
