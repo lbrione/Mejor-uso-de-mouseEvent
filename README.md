@@ -1,9 +1,8 @@
-# Mejorar usos de los eventos del mouse
-Forma de los eventos del mouse, sobre todo el click de una mejor manera.
+# Mejor forma de manejar los eventos del mouse.
 
-Consiste en agregar el evento al elemento padre y por medio de la propiedad "target" obtener el elemento al que esta dando el click.
+Consiste en agregar el evento al elemento padre, y por medio de la propiedad "target" obtener el elemento hijo al cual se esta dando el click.
 
-* link: https://jesusbriones2.github.io/Mejorar_uso_de_mouseEvent
+* https://jesusbriones2.github.io/Mejor-uso-de-mouseEvent
 
 ![Page capture](page_capture.png "Page capture")
 
