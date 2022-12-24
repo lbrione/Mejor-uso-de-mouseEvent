@@ -1,17 +1,17 @@
-const container = document.getElementById('container');
-let element_counter = 4;
-
+const container = document.getElementById('listContainer');
+const list = document.querySelector('.list'); 
 
 container.addEventListener( 'click', (e) => {
 
-	if ( e.target.className == 'cont__btn' ) {
-		container.lastElementChild.innerHTML += 
-		`<span class="cont__list-item">Elemento ${element_counter}<i class="fa-solid fa-xmark"></i></span>`;
-		element_counter++;
-	}	
+	if (e.target.className == 'listContainer__btnAdd') {
+		list.innerHTML += 
+		`<li class="list__item">Elemento ${
+			list.children.length == 0 ? 1:
+			parseInt(list.lastElementChild.textContent.slice(-1)) + 1
+		}<i class="fa-solid fa-xmark"></i></li>`;
+	}
 
-	if ( e.target.className == 'fa-solid fa-xmark' ) {
-		container.lastElementChild.removeChild( e.target.parentElement );
-		element_counter--;
+	if (e.target.className == 'fa-solid fa-xmark') {
+		list.removeChild(e.target.parentElement);
 	}
 });
