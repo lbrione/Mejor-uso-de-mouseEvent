@@ -4,5 +4,5 @@ Consiste en agregar el evento al elemento padre, y por medio de la propiedad "ta
 
 * https://jesusbriones2.github.io/Mejor-uso-de-mouseEvent
 
-![Page capture](page_capture.png "Page capture")
+![Screenshot of the page](screenshot.png "Screenshot of the page")
 
